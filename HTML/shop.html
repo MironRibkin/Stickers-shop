@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>STICKER SHOP</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@300;400&display=swap"
+          rel="stylesheet">
+</head>
+<body>
+<header class="header__wrapper shop__header">
+    <nav class="header__nav">
+        <a class="logo__cursor" href="../index.html">
+            <img class="logo" src="../Image/icon/Logo.svg">
+        </a>
+        <ul class="icon__wrapper">
+            <li id="hidden__input">
+                <form class="search__form">
+                    <input class="search__input" placeholder="Search">
+                </form>
+            <li>
+                <a class="wish__list"></a>
+            </li>
+            <li>
+                <a class="cart" href="shop.html"></a>
+            </li>
+        </ul>
+    </nav>
+    <div class="header__main">
+        <h1 class="header__text">
+            Shop
+        </h1>
+    </div>
+</header>
+<main class="main__wrapper__shop">
+    <section class="breadcrumb">
+    <span class="text__home">
+        Home
+    </span>
+        <img src="../Image/icon/strelka__grey.svg" class="arrow">
+        <span class="text__coffee">
+        Coffee
+    </span>
+    </section>
+    <div class="sticker__container">
+        <div class="card">
+            <button class="stickers__button"></button>
+            <img class="card__img" src="../Image/sticker/Sticker1.png">
+        </div>
+        <div class="sticker__info">
+            <span class="stickers__name">Coffe</span>
+            <span class="stickers__price">$1.50</span>
+            <span class="sticker__text">More information about stickers</span>
+            <span class="sticker__quantity__text">Quantity</span>
+            <div class="buttons__wrapper">
+                <div class="counter">
+                    <button class="counter__button minus">-</button>
+                    <input type="number" min="0" max="99" value="1" class="quantity__counter"/>
+                    <button class="counter__button plus">+</button>
+                </div>
+                <button class="save__button">Add to cart</button>
+            </div>
+        </div>
+    </div>
+    <div class="main__tags stickers__tags">
+        <button class="main__button__tags">drink</button>
+        <button class="main__button__tags">coffee</button>
+    </div>
+    <span class="related__product">Related Products</span>
+    <div class="stickers__wrapper related__stickers">
+        <div class="card">
+            <button class="stickers__button"></button>
+            <button class="add_to_cart_button">Add to cart</button>
+            <img class="card__img" src="../Image/sticker/Sticker4.png">
+            <div class="card__text_wrapper">
+                <span class="card__name">Flower</span>
+                <span class="card_price">$2.30</span>
+            </div>
+        </div>
+        <div class="card">
+            <button class="stickers__button"></button>
+            <button class="add_to_cart_button">Add to cart</button>
+            <img class="card__img" src="../Image/sticker/Sticker5.png">
+            <div class="card__text_wrapper">
+                <span class="card__name">Macaroni</span>
+                <span class="card_price">$1.20</span>
+            </div>
+        </div>
+        <div class="card">
+            <button class="stickers__button"></button>
+            <button class="add_to_cart_button">Add to cart</button>
+            <img class="card__img" src="../Image/sticker/Sticker6.png">
+            <div class="card__text_wrapper">
+                <span class="card__name">Sign</span>
+                <span class="card_price">$1.50</span>
+            </div>
+        </div>
+    </div>
+</main>
+<footer class="footer shop__footer">
+    <a class="logo__cursor" href="../index.html">
+        <img class="logo" src="../Image/icon/Logo.svg">
+    </a>
+    <div class="contacts__wrapper">
+        <span class="footer__text">Follow us</span>
+        <a class="instagram contact">
+            <img src="../Image/icon/inst.png"/>
+        </a>
+        <a class="twitter contact">
+            <img src="../Image/icon/twit.png"/>
+        </a>
+        <a class="whatsapp contact">
+            <img src="../Image/icon/what.png"/>
+        </a>
+        <a class="telegram contact">
+            <img src="../Image/icon/tele.png"/>
+        </a>
+        <a class="facebook contact">
+            <img src="../Image/icon/fac.png"/>
+        </a>
+    </div>
+</footer>
+</body>
+</html>
